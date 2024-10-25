@@ -1,0 +1,121 @@
+.file-upload-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  }
+  
+  .file-input-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  }
+  
+  .file-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  }
+  
+  .input-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  }
+  
+  .upload-button {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  }
+  
+  .upload-button:hover {
+  background-color: #0056b3;
+  }
+  
+  .error-message {
+  color: #e74c3c;
+  margin: 10px 0;
+  font-weight: bold;
+  }
+  
+  .success-message {
+  color: #28a745;
+  margin: 10px 0;
+  font-weight: bold;
+  }
+  
+  .selected-file-list,
+  .file-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  }
+  
+  .selected-file-item,
+  .file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .selected-file-item a,
+  .file-item a {
+  color: #007bff;
+  text-decoration: none;
+  }
+  
+  .selected-file-item a:hover,
+  .file-item a:hover {
+  text-decoration: underline;
+  }
+  
+  .remove-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+  background-color: #c82333;
+  }
+  
+  .delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+  background-color: #c82333;
+  }
+  
+  h1,
+  h2,
+  h3 {
+  color: #333;
+  margin-bottom: 10px;
+  }
